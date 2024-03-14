@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FUNDEC atv</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+</head>
+<body>
+
+<p class="line"></p>
+<p class="titleprincipal">FAÇA SUA INSCRIÇÃO</p>
+<p class="line"></p>
+
+<form id="geralform" class="geralform">
+    <fieldset>
+        <div class="form-row">
+            <div class="form-col" id="cpf">
+                <label for="cpf">CPF</label><br>
+                <input class="campos" type="text" name="cpf" placeholder="000.000.000-00">
+            </div>
+
+            <div class="form-col" id="celular">
+                <label class="titleinput" for="celular">Celular</label><br>
+                <input class="campos" type="text" name="celular" placeholder="(00) 00000-0000">
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-col" id="nomeCompleto">
+                <label for="nomeCompleto">Nome Completo</label><br>
+                <input class="campos" type="text" name="nomeCompleto" placeholder="Nome Completo">
+            </div>
+
+            <div class="form-col" id="nascimento">
+                <label for="dataNascimento">Data de Nascimento</label><br>
+                <input class="campos" type="text" name="dataNascimento" placeholder="Data de Nascimento">
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-col" id="cep">
+                <label for="cep">CEP</label><br>
+                <input class="campos" type="text" name="cep" placeholder="00.000-000">
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-col" id="endereco">
+                <label for="endereco">Endereço</label><br>
+                <input class="campos" type="text" name="endereco" placeholder="Digite o Endereço">
+            </div>
+
+            <div class="form-col" id="numero">
+                <label for="numero">Número</label><br>
+                <input id="numerointra" class="campos" type="text" name="numero" placeholder="Número">
+            </div>
+
+            <div class="form-col" id="complemento">
+                <label for="complemento">Complemento</label><br>
+                <input class="campos" type="text" name="complemento" placeholder="Digite o Complemento">
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-col" id="bairro">
+                <label for="bairro">Bairro</label><br>
+                <input class="campos" type="text" name="bairro" placeholder="Bairro">
+            </div>
+
+            <div class="form-col" id="municipio">
+                <label for="municipio">Município</label><br>
+                <input class="campos" type="text" name="município" placeholder="Município">
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-col" id="deficiencia">
+                <label for="cotaSelect">Possui alguma Cota ou Deficiência?</label><br>
+                <select class="campos" name="cotaSelect">
+                    <option value="">Não</option>
+                    <option value="">Deficiente</option>
+                    <option value="">Negro/Índio</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-col" id="sorteio">
+                <label>Data do Sorteio</label><br>
+                <input class="campos" type="text" name="dataSorteio" placeholder="00/00/0000" value="09/03/2024"
+                       disabled>
+            </div>
+
+            <div class="form-col" id="unidade">
+                <label>Unidade</label><br>
+                <select class="campos" name="unidade">
+                    <option value="">Escolha a Unidade</option>
+                    <option value="">FUNDEC UNIDADE GRAMACHO</option>
+                    <option value="">FUNDEC UNIDADE INSTITUTO ZECA PAGODINHO</option>
+                    <option value="">FUNDEC UNIDADE JARDIM GRAMACHO</option>
+                    <option value="">FUNDEC UNIDADE JARDIM PRIMAVEIRA</option>
+                    <option value="">FUNDEC UNIDADE PILAR</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-col" id="curso">
+                <label>Curso Pretendido </label><br>
+                <select class="campos" name="selecionaCurso">
+                    <option value="">Selecione o Curso</option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                </select>
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-col" id="senha">
+                <label>Senha de acesso</label><br>
+                <input class="campos" type="password" name="senha" placeholder="Senha">
+            </div>
+
+            <div class="form-col" id="email">
+                <label>E-mail</label><br>
+                <input class="campos" type="text" name="email" placeholder="Coloque o seu E-mail">
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-col" id="termos">
+                <label>Aceito todos os termos no edital</label><br>
+                <select class="campos" name="aceitarTermos">
+                    <option value="">Escolha</option>
+                    <option value="">Sim</option>
+                </select>
+            </div>
+        </div>
+        <p class="line"></p>
+    </fieldset>
+    <button type="submit" id="botaocadastrar">Cadastrar</button>
+</form>
+</body>
+</html>
